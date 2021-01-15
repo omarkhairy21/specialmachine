@@ -130,8 +130,6 @@ for s in numpy.arange(0.1, 0.0, -0.01):
 def get_the_real_number(num):
   return num.real
 
-def removeParenthesesOfTheTuple(num):
-  return num.real + '+' + num.imag
 
 df['s'] = df['s'].apply(get_the_real_number)
 df['N'] = df['N'].apply(get_the_real_number)
